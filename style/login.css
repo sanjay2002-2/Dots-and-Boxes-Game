@@ -1,0 +1,72 @@
+body{
+    background-color:#c5c1c1;
+    font-family:'Courier New', Courier, monospace
+}
+#title{
+    text-align:center;
+    color:#5dae8b;
+    font-size:40px;
+}
+#login{
+    text-align:center;
+    text-decoration:underline;
+    margin-bottom:25px;
+}
+.child{
+    border:1px solid rgb(83, 82, 82);
+    border-radius:5px;
+    background-color: white;
+    height:410px;;
+    width:250px;
+    padding:10px;
+}
+.main-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+#player1,#player2{
+    font-family:'Courier New', Courier, monospace;
+    width:95%;
+    height:30px;
+    border-radius:5px;
+    margin-top:8px;
+    margin-bottom:20px;
+    font-weight:600;
+    font-size:20px;
+    border:1px solid rgb(83, 81, 81);
+}
+#boxes{
+    font-family:'Courier New', Courier, monospace;
+    width:95%;
+    height:30px;
+    border-radius:5px;
+    margin-top:8px;
+    margin-bottom:5px;
+    font-weight:600;
+    font-size:20px;
+    border:1px solid rgb(83, 81, 81);
+}
+#info-text{
+    color:red;
+}
+#p1,#p2,#b1{
+    font-size:20px;
+    font-weight:500;
+    font-family:'Courier New', Courier, monospace;
+}
+.btn{
+    font-family:'Courier New', Courier, monospace;
+    display:block;
+    margin:30px auto 0 auto;
+    background-color: aqua;
+    height:30px;
+    width:120px;
+    border-radius:15px;
+    font-size:16px;
+    font-weight:700;
+    border:none;
+    cursor: pointer;
+    justify-content:center;
+}
