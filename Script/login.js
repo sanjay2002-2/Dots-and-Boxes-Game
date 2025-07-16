@@ -11,5 +11,5 @@ function startGame(){
     localStorage.setItem("player1",name1);
     localStorage.setItem("player2",name2);
     localStorage.setItem('boxes',gridSize);
-    window.location.href = "Game.html"
+    window.location.href = "game.html"
 }
