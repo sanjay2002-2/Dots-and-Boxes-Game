@@ -1,5 +1,5 @@
 const winner = localStorage.getItem("winner") || "No winner";
-    document.getElementById("winner-name").textContent = `🏆 Winner: ${winner} 👑`;
+    document.getElementById("winner-name").textContent = ` Winner: ${winner} 👑`;
 
     function playAgain() {
       localStorage.removeItem("player1");

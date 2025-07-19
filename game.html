@@ -7,19 +7,26 @@
 </head>
 <body>
 
-  <h1>Dots and Boxes</h1>
+  <div class="game-container">
+    <div class="game">
+      <h1>Dots and Boxes</h1>
 
-  <div id="scoreboard">
-    <strong id="player1-name">player1 <span id="score1">0</span></strong>
-    &nbsp;|&nbsp;
-    <strong id="player2-name">player2<span id="score2">0</span></strong>
+      <div id="scoreboard">
+        <strong id="player1-name">player1 <span id="score1">0</span></strong>
+        &nbsp;|&nbsp;
+        <strong id="player2-name">player2<span id="score2">0</span></strong>
+      </div>
+
+      <div id="controls">
+        <button onclick="restartGame()">🔄 Restart</button>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid" id="grid"></div>
+      </div> 
+    </div>   
   </div>
-
-  <div id="controls">
-    <button onclick="restartGame()">🔄 Restart</button>
-  </div>
-  <div class="grid" id="grid"></div>
-
   <script src="Script/game.js"></script>
+  <footer class="footer">&copy; Made with ❤️ From Sanjay Prajapati. All rights reserved.</footer>
   </body>
   </html>

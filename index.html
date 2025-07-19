@@ -5,24 +5,28 @@
     <link rel=stylesheet href="style/login.css">
 </head>
 <body>
-    <h1 id="title">Welcome</h1>
     <div class="main-container">
-        <div class="child">
-            <h2 id="login">Login to Game</h2>
+        <div class="container">
+            <h1 id="title">Welcome</h1>
+            <br/>
+            <div class="child">
+                <h2 id="login">Login to Game</h2>
 
-            <label for="player1" id="p1">Player Name 1 :</label>
-            <input type="text" placeholder="Enter Player Name " id="player1">
+                <label for="player1" id="p1">Player Name 1 :</label>
+                <input type="text" placeholder="Enter Player Name " id="player1">
 
-            <label for="player1" id="p2">Player Name 2 :</label>
-            <input type="text" placeholder="Enter Player Name" id="player2">
+                <label for="player1" id="p2">Player Name 2 :</label>
+                <input type="text" placeholder="Enter Player Name" id="player2">
 
-            <label for="grid" id="b1">Grid Size :</label>
-            <input type="number" placeholder="Enter Grid Size"  id="boxes">
-            <small id="info-text"> (min - 3 | max - 12) </small>
+                <label for="grid" id="b1">Grid Size :</label>
+                <input type="number" placeholder="Enter Grid Size"  id="boxes">
+                <small id="info-text"> (min - 3 | max - 10) </small>
 
-            <button class="btn" onclick="startGame()">START GAME</button>
-        </div>    
+                <button class="btn" onclick="startGame()">START GAME</button>
+            </div> 
+        </div>       
     </div>
+    <footer class="footer">&copy; Made with ❤️ From Sanjay Prajapati. All rights reserved.</footer>
     <script src="Script/login.js"></script>
 </body>
 </html>
